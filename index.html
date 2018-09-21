@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Conic Gradient Example | FF Bug</title>
+  <style>
+    .capacity-pie {
+      --val1: 35%;
+      --val2: 0%;
+      width: 10em; height: 10em;
+      border-radius: 50%;
+      background: conic-gradient(#abcabc var(--val1), #9ab9ab var(--val2));
+    } 
+  </style>
+</head>
+<body>
+  <div class="capacity-pie" style="--val1: 65%"></div>
+  <script src="./node_modules/prefixfree/prefixfree.min.js"></script>
+  <script src="./node_modules/conic-gradient/conic-gradient.js"></script>
+  <script></script>
+</body>
+</html>

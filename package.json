@@ -1,0 +1,10 @@
+{
+  "name": "conic-gradient-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "conic-gradient": "^1.0.0",
+    "prefixfree": "^1.0.0"
+  }
+}
